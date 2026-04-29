@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4703612601522884976}
   m_Layer: 0
   m_Name: Crap
-  m_TagString: Brick
+  m_TagString: Crap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

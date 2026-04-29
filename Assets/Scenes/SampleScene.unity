@@ -434,7 +434,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.6597587, y: 0}
@@ -2945,7 +2945,7 @@ MonoBehaviour:
   m_text: 'Hi, welcome to Dino Dodger!
 
 
-    
+
 
     This is Shelly, she LOVES chocolate
     chip mint icecream, but HATES crabs!
@@ -4116,11 +4116,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1753272504125440158, guid: 617d47a8269b1e046b76a32a2ad0bba2, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 2.02
+      value: 3.97
       objectReference: {fileID: 0}
     - target: {fileID: 1753272504125440158, guid: 617d47a8269b1e046b76a32a2ad0bba2, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 3.87
+      value: 2.62
       objectReference: {fileID: 0}
     - target: {fileID: 1837172089958825631, guid: 617d47a8269b1e046b76a32a2ad0bba2, type: 3}
       propertyPath: m_Sprite

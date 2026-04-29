@@ -46,6 +46,9 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+
+        Debug.Log("HIT: " + collision.gameObject.name);
+
         if (collision.gameObject.CompareTag("Crap"))
         {
             rb.linearVelocity = Vector2.zero;
@@ -57,8 +60,6 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
-        Debug.Log("TOUCHED: " + collision.name);
 
         if (collision.CompareTag("IceCream"))
         {
