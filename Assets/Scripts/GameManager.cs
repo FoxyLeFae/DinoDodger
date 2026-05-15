@@ -28,7 +28,6 @@ public class GameManager : MonoBehaviour
 
     int score = 0;
 
-    // ⭐ NYT: difficulty system
     float difficultyTimer = 0f;
     float minSpawnRate = 0.3f;
 
